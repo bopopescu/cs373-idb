@@ -1,0 +1,29 @@
+Enchantment Creature - 378516 - Chromanticore - BNG
+Legendary Creature - 382303 - Marchesa, The Black Rose - CNS
+Artifact - 369096 - Dimir Cluestone - DGM
+Land Creature - 136196 - Dryad Arbor - FUT
+Instant - 366450 - Pit Fight - GTC
+Legendary Enchantment Creature - 380442 - Keranos, God of Storms - JOU
+Planeswalker - 370728 - Jace, Memory Adept - M14
+Creature - 370404 - Tarmogoyf - MMA
+Artifact Creature - 270359 - Volatile Rig - RTR
+Legendary Enchantment Artifact - 373603 - Bow of Nylea - THS
+Sorcery - 9771 - Look at Me, I'm the DCI - UG
+Legendary Artifact - 73947 - Gleemax - UNH
+
+
+| card_id             | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_name           | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_setid          | varchar(8)   | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_type           | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_subtype        | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_mana_cost      | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_converted_cost | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_loyalty        | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_rarity         | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_text           | text         | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_flavor_text    | text         | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_power          | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_toughness      | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_price  
+

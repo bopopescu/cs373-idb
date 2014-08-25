@@ -1,0 +1,43 @@
+Enchantment Creature - 378516 - Chromanticore - BNG
+Legendary Creature - 382303 - Marchesa, The Black Rose - CNS
+Artifact - 369096 - Dimir Cluestone - DGM
+Land Creature - 136196 - Dryad Arbor - FUT
+Instant - 366450 - Pit Fight - GTC
+Legendary Enchantment Creature - 380442 - Keranos, God of Storms - JOU
+Planeswalker - 370728 - Jace, Memory Adept - M14
+Creature - 370404 - Tarmogoyf - MMA
+Artifact Creature - 270359 - Volatile Rig - RTR
+Legendary Enchantment Artifact - 373603 - Bow of Nylea - THS
+Sorcery - 9771 - Look at Me, I'm the DCI - UG
+Legendary Artifact - 73947 - Gleemax - UNH
+
+    url(r'^cards/guru_id_378516$', guru_id_378516),
+    url(r'^cards/guru_id_382303$', guru_id_382303),
+    url(r'^cards/guru_id_369096$', guru_id_369096),
+    url(r'^cards/guru_id_136196$', guru_id_136196),
+    url(r'^cards/guru_id_366450$', guru_id_366450),
+    url(r'^cards/guru_id_380442$', guru_id_380442),
+    url(r'^cards/guru_id_370728$', guru_id_370728),
+    url(r'^cards/guru_id_370404$', guru_id_370404),
+    url(r'^cards/guru_id_270359$', guru_id_270359),
+    url(r'^cards/guru_id_373603$', guru_id_373603),
+      url(r'^cards/guru_id_9771$', guru_id_9771),
+     url(r'^cards/guru_id_73947$', guru_id_73947),
+
+
+
+| card_id             | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_name           | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_setid          | varchar(8)   | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_type           | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_subtype        | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_mana_cost      | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_converted_cost | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_loyalty        | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_rarity         | varchar(255) | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_text           | text         | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_flavor_text    | text         | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_power          | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_toughness      | int(11)      | YES  |     | NULL    |       |                                                                                                                                                                       
+| card_price  
+
